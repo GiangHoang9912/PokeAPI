@@ -1,0 +1,61 @@
+.container {
+  background-image: url("https://fiverr-res.cloudinary.com/images/q_auto,f_auto/gigs/123740332/original/60547d6091e5c71dfb5cf8e0841c7d3d77f89ae2/create-anime-background-style.jpg");
+  width: 100vw;
+  height: 100vh;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+body {
+  margin: 0;
+}
+
+* {
+  color: #ffffff;
+  font-size: medium;
+}
+
+#content {
+  position: absolute;
+  border-radius: 50%;
+  background-color: transparent;
+  width: 200px;
+  height: 200px;
+  margin: 100px 0px 0px 500px;
+  text-align: center;
+  background-image: linear-gradient( to top right, rgba(18, 194, 233, 0.6) 0%, rgba(29, 151, 108, 0.6) 35%, rgba(147, 249, 185, 0.6) 65%);
+}
+
+#showImg {
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+}
+
+button {
+  color: black;
+  margin: 5px;
+  padding: 5px;
+  border: none;
+}
+
+button:hover {
+  background-color: black;
+  color: white;
+}
+
+#infoDiv {
+  position: absolute;
+  width: 170.813px;
+  height: 263.031px;
+  top: 100px;
+  right: 100px;
+  margin-left: 20px;
+  padding: 30px;
+  background-image: linear-gradient( to top right, rgba(18, 194, 233, 0.6) 0%, rgba(29, 151, 108, 0.6) 35%, rgba(147, 249, 185, 0.6) 65%);
+}
+
+h3 {
+  font-size: larger;
+  color: black;
+}
